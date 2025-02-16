@@ -1,0 +1,37 @@
+.love{
+    color: rgb(206, 8, 8);
+}
+.container{
+    display: flex;
+    padding: 32px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #783F8E;
+    border-radius: 16px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#C8C6D7;
+    transition: 0.3s;
+    font-size: 25px;
+    border-bottom: 2px solid #783F8E;
+}
+a:hover {
+    color:#162521;
+    border-bottom: 1.7px solid #162521;
+}
+@media (max-width: 800px){
+    .container{
+        flex-direction: column;
+        background-color: #fff;
+    }
+    a{
+        margin: 8px;
+        background-color: #783F8E;
+        padding: 32px;
+        border-radius: 16px;
+        text-align: center;
+    }
+}
